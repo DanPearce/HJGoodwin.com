@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import avatar from '../assets/avatar.jpg'
 
-const AboutMe = () => {
+const AboutUs = () => {
   return (
     <Container className={styles.Container}>
       <Container className={styles.Content}>
@@ -90,4 +90,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe
+export default AboutUs

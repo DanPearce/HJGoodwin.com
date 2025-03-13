@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import { Routes, Route} from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import Projects from './pages/projects/Projects';
-import AboutMe from './pages/AboutMe';
+import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path='/' element={<LandingPage />} />
             <Route path='/projects' element={<Projects />} />
-            <Route path='/aboutme' element={<AboutMe />} />
+            <Route path='/aboutus' element={<AboutUs />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
         </Container>

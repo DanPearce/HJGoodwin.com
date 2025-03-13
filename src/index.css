@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fefdfd;
@@ -20,9 +20,8 @@ code {
 }
 
 h1, h2, h3, h4, h6 {
-    font-family: "Space Grotesk", sans-serif;
-    color: #153943;
+    font-family: "Barlow Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
   }

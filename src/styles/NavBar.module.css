@@ -1,7 +1,7 @@
 /* NavBar Styling */
 .NavBar {
-  background-color: #153943;
-  font-family: "Space Grotesk", sans-serif;
+  background-color: #3b3b3f;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .NavBar a {
@@ -19,7 +19,7 @@
 }
 
 .Logo {
-  width: 250px;
+  width: 150px;
   height: auto;
 }
 
