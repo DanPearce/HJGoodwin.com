@@ -3,21 +3,22 @@
   margin-bottom: 50px;
 }
 
-a img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 a {
   text-decoration: none;
 }
 
-.ProjectRow a:hover {
-  color:#3b3b3f;
-  text-decoration: underline;
+.Before {
+  padding-right: 20px;
+  max-width: 50%;
+}
+.After {
+  padding-left: 20px;
+  max-width: 50%;
 }
 
-.ProjectRow {
-  padding-bottom: 50px;
+.BeforeLand {
+  max-width: 100%;
+}
+.AfterLand {
+  max-width: 100%;
 }
