@@ -32,6 +32,7 @@ const AboutUs = () => {
             <Container>
               <h3>With over 10 years of experience in the construction industry</h3>
               <p>I have built a solid reputation for delivering high-quality workmanship across a range of building services. My expertise spans multiple trades, allowing me to provide a comprehensive approach to construction projects, whether small repairs or large-scale builds.</p>
+              <p>I believe that great construction work goes beyond just bricks and mortar—it’s about creating safe, lasting, and aesthetically pleasing spaces for my clients. My approach is built on clear communication, transparency, and a commitment to exceeding expectations. By working closely with customers, I ensure every project is tailored to their needs, completed on time, and within budget. With a growing client base and an expanding range of services, I am dedicated to continuing my professional development and staying up to date with industry best practices.</p>
             </Container>
             <Container class='mt-4'>
             <h3 className="text-3xl font-bold mb-4">My Expertise</h3>
