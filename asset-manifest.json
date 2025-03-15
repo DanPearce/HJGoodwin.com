@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13af36be.css",
+    "main.js": "/static/js/main.bbd06014.js",
+    "static/js/453.2822aef2.chunk.js": "/static/js/453.2822aef2.chunk.js",
+    "static/media/b-before.jpg": "/static/media/b-before.28aa106a76549ede4ec8.jpg",
+    "static/media/c-before.jpg": "/static/media/c-before.407058a6330ff098ca00.jpg",
+    "static/media/base-after.jpg": "/static/media/base-after.6d182b989fe734760c3e.jpg",
+    "static/media/t-after.jpg": "/static/media/t-after.e3d171ac03469d17f57e.jpg",
+    "static/media/coping-after.jpg": "/static/media/coping-after.901390a7d9a2910544b1.jpg",
+    "static/media/c-after.jpg": "/static/media/c-after.c57357a85a35f148ad9c.jpg",
+    "static/media/k-after.jpg": "/static/media/k-after.c57357a85a35f148ad9c.jpg",
+    "static/media/a-after.jpg": "/static/media/a-after.4a43eeff72ac63d42b96.jpg",
+    "static/media/b-after.jpg": "/static/media/b-after.19ca365211d05bfec812.jpg",
+    "static/media/w-after.jpg": "/static/media/w-after.a5b3770a149f1712010e.jpg",
+    "static/media/IMG_7587.jpg": "/static/media/IMG_7587.bda64bf62e7ae84f5625.jpg",
+    "static/media/a-before.jpg": "/static/media/a-before.29fb114ed95c33836bed.jpg",
+    "static/media/IMG_8231.jpg": "/static/media/IMG_8231.d32ec543474142b25af7.jpg",
+    "static/media/j-after.jpg": "/static/media/j-after.c731f4c7d0abe3063ca5.jpg",
+    "static/media/leveling.jpg": "/static/media/leveling.1c96da7cad81e184c20a.jpg",
+    "static/media/planning.jpg": "/static/media/planning.b666df088f3638c24a1b.jpg",
+    "static/media/pavement-bricks.jpg": "/static/media/pavement-bricks.50323cabadd303fb2f09.jpg",
+    "static/media/HJGoodwin-main-green.png": "/static/media/HJGoodwin-main-green.a84a507d8dc767ffb34b.png",
+    "static/media/HJGoodwin-logogreen.png": "/static/media/HJGoodwin-logogreen.577655e9e0338488c925.png",
+    "index.html": "/index.html",
+    "main.13af36be.css.map": "/static/css/main.13af36be.css.map",
+    "main.bbd06014.js.map": "/static/js/main.bbd06014.js.map",
+    "453.2822aef2.chunk.js.map": "/static/js/453.2822aef2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13af36be.css",
+    "static/js/main.bbd06014.js"
+  ]
+}
