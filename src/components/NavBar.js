@@ -29,7 +29,7 @@ const NavBar = () => {
           <Nav className="ms-auto text-start">
             <NavLink to="/aboutus" className={styles.NavLink}><i class="fa-solid fa-trowel-bricks"></i> About Us</NavLink>
             <NavLink to="/projects" className={styles.NavLink}><i class="fa-solid fa-building-columns"></i> Projects</NavLink>
-            <NavLink to="/contact" className={styles.NavLink}><i class="fa-solid fa-images"></i> Gallery</NavLink>
+            <NavLink to="/Gallery" className={styles.NavLink}><i class="fa-solid fa-images"></i> Gallery</NavLink>
             <NavLink to="/contact" className={styles.NavLink}>
               <Container className={styles.ContactButton}>
                 <i class="fa-solid fa-envelope"></i> Contact Us
