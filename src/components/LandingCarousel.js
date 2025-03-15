@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from '../styles/LandingPage.module.css'
 import Carousel from 'react-bootstrap/Carousel'
-import leveling from '../assets/images/leveling.jpg'
-import planning from '../assets/images/planning.jpg'
-import pavement from '../assets/images/pavement-bricks.jpg'
+import leveling from '../assets/images/stock/leveling.jpg'
+import planning from '../assets/images/stock/planning.jpg'
+import pavement from '../assets/images/stock/pavement-bricks.jpg'
 
 const LandingCarousel = () => {
   return(
