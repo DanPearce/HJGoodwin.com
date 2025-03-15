@@ -1,5 +1,5 @@
 .Container {
-  margin-top: 100px;
+  margin-top: 161px;
   margin-bottom: 50px;
 }
 
@@ -14,11 +14,11 @@ a {
 }
 
 .ProjectRow a:hover {
-  color:#153943;
+  color:#3b3b3f;
   text-decoration: underline;
 }
 
 .ProjectRow {
   padding-bottom: 50px;
-  border-top: 5px solid #153943;
+  border-top: 5px solid #3b3b3f;
 }

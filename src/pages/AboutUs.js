@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../styles/AboutMe.module.css'
+import styles from '../styles/AboutUs.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import avatar from '../assets/avatar.jpg'
+import logo from '../assets/HJGoodwin-main.png'
 
 const AboutUs = () => {
   return (
@@ -11,8 +11,8 @@ const AboutUs = () => {
       <Container className={styles.Content}>
         <Row>
         <Col lg={4} sm={12} className={styles.SkillsContainer}>
-          <h1>About Me</h1>
-            <img src={avatar} className={styles.Avatar} alt="avatar" />
+          <h1>About Us</h1>
+            <img src={logo} className={styles.Avatar} alt="avatar" />
             <Row className={styles.Skills}>
               <Col lg={12} sm={6} className={styles.SkillsLanguages}>
                 <h3><i class="fa-solid fa-code"></i> Languages</h3>
