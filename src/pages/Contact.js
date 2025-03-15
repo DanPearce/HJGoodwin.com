@@ -6,7 +6,7 @@ import styles from '../styles/Contact.module.css'
 const Contact = () => {
   return (
     <Container className={styles.Container}>
-      <h1>Contact Me</h1>
+      <h2>Contact Us</h2>
       <ContactForm />
     </Container>
   )

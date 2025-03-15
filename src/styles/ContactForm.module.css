@@ -14,7 +14,7 @@ input, select, textarea {
 
 input[type=submit] {
   width: 100%;
-  background-color: #153943;
+  background-color: #84d946;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -27,7 +27,7 @@ input[type=submit]:hover {
   background-color: #fefdfd;
   color: #153943;
   border: 2px solid;
-  border-color: #153943;
+  border-color: #84d946;
 }
 
 .FormContainer {

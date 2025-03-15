@@ -3,7 +3,7 @@ import styles from '../styles/AboutUs.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import logo from '../assets/HJGoodwin-main.png'
+import logo from '../assets/HJGoodwin-main-green.png'
 
 const AboutUs = () => {
   return (
@@ -12,7 +12,7 @@ const AboutUs = () => {
         <Row>
         <Col lg={4} sm={12} className={styles.SkillsContainer}>
           <h1>About Us</h1>
-            <img src={logo} className={styles.Avatar} alt="avatar" />
+            <img src={logo} className={styles.Logo} alt="Logo" />
             <Row className={styles.Skills}>
               <Col lg={12} sm={6} className={styles.SkillsLanguages}>
                 <h3><i class="fa-solid fa-code"></i> Languages</h3>
