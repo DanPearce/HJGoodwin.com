@@ -20,8 +20,8 @@ const Projects = () => {
         <Col lg={6} sm={12}>
           <Col>
             <h6>Before / After</h6>
-            <img src={img1} alt="Brick Work" className={styles.Before}/>
-            <img src={img2} alt="Brick Work" className={styles.After}/>
+            <a href='/src/assets/images/before/a-before.jpg' target='_blank'><img src={img1} alt="Brick Work" className={styles.Before}/></a>
+            <a href='/src/assets/images/after/a-after.jpg' target='_blank'><img src={img2} alt="Brick Work" className={styles.After}/></a>
           </Col>
         </Col>
         <Col lg={6} sm={12}>
@@ -38,17 +38,17 @@ const Projects = () => {
           </Col>
         <Col lg={6} sm={6}>
           <h6>Before</h6>
-          <img src={img3} alt="Bricklaying" className={styles.BeforeLand}/>
+          <a href='/src/ssets/images/before/b-before.jpg' target='_blank'><img src={img3} alt="Bricklaying" className={styles.BeforeLand}/></a>
           <h6>After</h6>
-          <img src={img4} alt="Bricklaying" className={styles.AfterLand}/>
+          <a href='/src/assets/images/after/b-after.jpg' target='_blank'><img src={img4} alt="Bricklaying" className={styles.AfterLand}/></a>
         </Col>
         </Row>
         <Row className={styles.ProjectRow}>
           <Col lg={6} sm={6}>
             <h6>Before</h6>
-            <img src={img5} alt="Bricklaying" className={styles.BeforeLand}/>
+            <a href='/src/assets/images/before/c-before.jpg' target='_blank'><img src={img5} alt="Bricklaying" className={styles.BeforeLand}/></a>
             <h6>After</h6>
-            <img src={img6} alt="Bricklaying" className={styles.AfterLand}/>
+            <a href='/src/assets/images/after/c-after.jpg' target='_blank'><img src={img6} alt="Bricklaying" className={styles.AfterLand}/></a>
           </Col>
           <Col lg={6} sm={6}>
             <h3>Block Work</h3>

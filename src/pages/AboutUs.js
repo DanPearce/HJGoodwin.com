@@ -3,7 +3,7 @@ import styles from '../styles/AboutUs.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import logo from '../assets/HJGoodwin-main-green.png'
+import logo from '../assets/HJGoodwin-main-green.jpg'
 
 const AboutUs = () => {
   return (
