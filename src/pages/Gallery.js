@@ -28,13 +28,13 @@ const Gallery = () => {
           <a href='/src/assets/images/gallery/IMG_8231.jpg' target='_blank'><img src={img2} className={styles.Image} alt='Building work'/></a>
           <a href='/src/assets/images/gallery/base-after.jpg' target='_blank'><img src={img5} className={styles.Image} alt='Building work'/></a>
         </Col>
-        <Col lg={4}>
-          <a href='/src/assets/images/gallery/a-after.jpg' target='_blank'><img src={img3} className={styles.Image} alt='Building work'/></a>
+        <Col lg={4} className={styles.PortCol}>
+          <a href='/src/assets/images/gallery/a-after.jpg' target='_blank' className={styles.PortImage}><img src={img3} className={styles.Image} alt='Building work'/></a>
         </Col>
     </Row>
     <Row>
-       <Col lg={4}>
-         <a href='/src/assets/images/gallery/coping-after.jpg' target='_blank'><img src={img6}className={styles.Image} alt='Building work'/></a>
+       <Col lg={4} className={styles.PortCol}>
+         <a href='/src/assets/images/gallery/coping-after.jpg' target='_blank' className={styles.PortImage}><img src={img6} className={styles.Image} alt='Building work'/></a>
        </Col>
         <Col lg={4}>
           <a href='/assets/images/gallery/k-after.jpg' target='_blank'><img src={img7} className={styles.Image} alt='Building work'/></a>
@@ -51,8 +51,8 @@ const Gallery = () => {
         </Col>
         <Col lg={4}>
         </Col>
-        <Col lg={4}>
-         <a href='/src/assets/images/gallery/IMG_7586.JPG' target='_blank'><img src={img12}className={styles.Image} alt='Building work'/></a>
+        <Col lg={4} className={styles.PortCol}>
+         <a href='/src/assets/images/gallery/IMG_7586.JPG' target='_blank' className={styles.PortImage}><img src={img12} className={styles.Image} alt='Building work'/></a>
         </Col>
     </Row>
     </Container>
