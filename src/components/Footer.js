@@ -17,7 +17,7 @@ const Footer = () => {
     <Navbar fixed="bottom" className={styles.Footer}>
       <Container>
         {footText}
-        <NavLink to="https://danielpearce.co.uk/" className={styles.Credits} target="_blank">Website Developed by Dan Pearce
+        <NavLink to="https://danielpearce.co.uk/" className={styles.Credits} target="_blank">Developed by Dan Pearce
         </NavLink>
       </Container>
     </Navbar>

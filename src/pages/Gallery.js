@@ -19,28 +19,28 @@ const Gallery = () => {
     <Container className={styles.Container}>
       <Row>
         <Col lg={4}>
-          <a href='/src/assets/images/gallery/IMG_7587.jpg' target='_blank'><img src={img1}className={styles.Image}/></a>
-          <a href='/src/assets/images/gallery/b-after.jpg' target='_blank'><img src={img4}className={styles.Image}/></a>
+          <a href='/src/assets/images/gallery/IMG_7587.jpg' target='_blank'><img src={img1}className={styles.Image} alt='Building work' loading='lazy'/></a>
+          <a href='/src/assets/images/gallery/b-after.jpg' target='_blank'><img src={img4}className={styles.Image} alt='Building work'/></a>
         </Col>
         <Col lg={4}>
-          <a href='/src/assets/images/gallery/IMG_8231.jpg' target='_blank'><img src={img2} className={styles.Image}/></a>
-          <a href='/src/assets/images/gallery/base-after.jpg' target='_blank'><img src={img5} className={styles.Image}/></a>
+          <a href='/src/assets/images/gallery/IMG_8231.jpg' target='_blank'><img src={img2} className={styles.Image} alt='Building work'/></a>
+          <a href='/src/assets/images/gallery/base-after.jpg' target='_blank'><img src={img5} className={styles.Image} alt='Building work'/></a>
         </Col>
         <Col lg={4}>
-          <a href='/src/assets/images/gallery/a-after.jpg' target='_blank'><img src={img3} className={styles.Image}/></a>
+          <a href='/src/assets/images/gallery/a-after.jpg' target='_blank'><img src={img3} className={styles.Image} alt='Building work'/></a>
         </Col>
     </Row>
     <Row>
        <Col lg={4}>
-         <a href='/src/assets/images/gallery/coping-after.jpg' target='_blank'><img src={img6}className={styles.Image}/></a>
+         <a href='/src/assets/images/gallery/coping-after.jpg' target='_blank'><img src={img6}className={styles.Image} alt='Building work'/></a>
        </Col>
         <Col lg={4}>
-          <a href='/assets/images/gallery/k-after.jpg' target='_blank'><img src={img7} className={styles.Image}/></a>
-          <a href='/src/assets/images/gallery/j-after.jpg' target='_blank'><img src={img8} className={styles.Image}/></a>
+          <a href='/assets/images/gallery/k-after.jpg' target='_blank'><img src={img7} className={styles.Image} alt='Building work'/></a>
+          <a href='/src/assets/images/gallery/j-after.jpg' target='_blank'><img src={img8} className={styles.Image} alt='Building work'/></a>
         </Col>
         <Col lg={4}>
-          <a href='/src/assets/images/gallery/t-after.jpg' target='_blank'><img src={img9} className={styles.Image}/></a>
-          <a href='/src/assets/images/gallery/w-after.jpg' target='_blank'><img src={img10} className={styles.Image}/></a>
+          <a href='/src/assets/images/gallery/t-after.jpg' target='_blank'><img src={img9} className={styles.Image} alt='Building work'/></a>
+          <a href='/src/assets/images/gallery/w-after.jpg' target='_blank'><img src={img10} className={styles.Image} alt='Building work'/></a>
         </Col>
     </Row>
     </Container>
