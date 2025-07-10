@@ -23,8 +23,10 @@ const Projects = () => {
         <Col lg={6} sm={12}>
           <Col>
             <h6>Before / After</h6>
-            <a href='/src/assets/images/before/a-before.jpg' target='_blank'><img src={img1} alt="Repointing & Masonry Protection Before" className={styles.Before}/></a>
-            <a href='/src/assets/images/after/a-after.jpg' target='_blank'><img src={img2} alt="Repointing & Masonry Protection After" className={styles.After}/></a>
+              <a href={img1} target="_blank" rel="noopener noreferrer">
+                <img src={img1} alt="Repointing & Masonry Protection Before" className={styles.Before} />
+              </a>
+            <a href={img2} target='_blank'><img src={img2} alt="Repointing & Masonry Protection After" className={styles.After}/></a>
           </Col>
         </Col>
         <Col lg={6} sm={12}>
@@ -41,17 +43,17 @@ const Projects = () => {
           </Col>
         <Col lg={6} sm={6}>
           <h6>Before</h6>
-          <a href='/src/ssets/images/before/b-before.jpg' target='_blank'><img src={img3} alt="Shed Base Before" className={styles.BeforeLand}/></a>
+          <a href={img3} target='_blank'><img src={img3} alt="Shed Base Before" className={styles.BeforeLand}/></a>
           <h6>After</h6>
-          <a href='/src/assets/images/after/b-after.jpg' target='_blank'><img src={img4} alt="Shed Base After" className={styles.AfterLand}/></a>
+          <a href={img4} target='_blank'><img src={img4} alt="Shed Base After" className={styles.AfterLand}/></a>
         </Col>
         </Row>
         <Row className={styles.ProjectRow}>
           <Col lg={6} sm={6}>
             <h6>Before</h6>
-            <a href='/src/assets/images/before/c-before.jpeg' target='_blank'><img src={img5} alt="Brick Work Before" className={styles.BeforeLand}/></a>
+            <a href={img5} target='_blank'><img src={img5} alt="Brick Work Before" className={styles.BeforeLand}/></a>
             <h6>After</h6>
-            <a href='/src/assets/images/after/c-after.jpg' target='_blank'><img src={img6} alt="Brick Work After" className={styles.AfterLand}/></a>
+            <a href={img6} target='_blank'><img src={img6} alt="Brick Work After" className={styles.AfterLand}/></a>
           </Col>
           <Col lg={6} sm={6}>
             <h3>Blockwork Retaining Walls</h3>
@@ -67,14 +69,14 @@ const Projects = () => {
           </Col>
         <Col lg={6} sm={6}>
           <h6>Before</h6>
-          <a href='/src/ssets/images/before/d-before.jpeg' target='_blank'><img src={img7} alt="Footing Before" className={styles.BeforeLand}/></a>
+          <a href={img7} target='_blank'><img src={img7} alt="Footing Before" className={styles.BeforeLand}/></a>
           <h6>After</h6>
-          <a href='/src/assets/images/after/d-after.jpeg' target='_blank'><img src={img8} alt="Footings After" className={styles.AfterLand}/></a>
+          <a href={img8} target='_blank'><img src={img8} alt="Footings After" className={styles.AfterLand}/></a>
         </Col>
         </Row>
         <Row className={styles.ProjectRow}>
           <Col lg={6} sm={6}>
-            <a href='/src/assets/images/before/e-after.jpeg' target='_blank'><img src={img9} alt="Loft Boarding" className={styles.BeforeLand}/></a>
+            <a href={img9} target='_blank'><img src={img9} alt="Loft Boarding" className={styles.BeforeLand}/></a>
           </Col>
           <Col lg={6} sm={6}>
             <h3>Loft Boarding Installation</h3>
