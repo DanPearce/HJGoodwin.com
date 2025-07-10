@@ -1,0 +1,40 @@
+.Container {
+  margin-top: 135px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: larger;
+}
+
+.Before {
+  padding-right: 20px;
+  max-width: 50%;
+}
+.After {
+  padding-left: 20px;
+  max-width: 50%;
+}
+
+.BeforeLand {
+  max-width: 100%;
+}
+.AfterLand {
+  max-width: 100%;
+}
+
+.ProjectRow {
+  margin-bottom: 4rem; /* adds space between each project block */
+  border: solid 3px rgba(132, 217, 70);
+  padding: 2%;
+}
+
+@media (max-width: 575.98px) {
+  .ProjectRow {
+    margin-bottom: 5rem;
+  }
+}

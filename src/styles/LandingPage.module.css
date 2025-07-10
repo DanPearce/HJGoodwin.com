@@ -1,0 +1,42 @@
+/* LandingPage Styling */
+.Container {
+  margin-top: 135px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	justify-content: center;
+}
+
+h3, h4 {
+	text-align: center;
+}
+
+.LandingContainer {
+	max-width: 100%;
+	max-height: 100%;
+	margin-bottom: 50px;
+}
+
+.Carousel {
+	margin: auto;
+	display: block;
+	width: 75%;
+}
+
+.Image {
+	width: 100%;
+}
+
+.CarouselCaption {
+	text-shadow: -1px 0 #3b3b3f, 0 1px #3b3b3f, 1px 0 #3b3b3f, 0 -1px #3b3b3f;
+	color: #fefdfd !important;
+}
+
+.LandingBorder {
+	  border: solid 3px rgba(132, 217, 70);
+		padding: 2%;
+}
+
+.LandingBorder a {
+	color: #3b3b3f;
+}

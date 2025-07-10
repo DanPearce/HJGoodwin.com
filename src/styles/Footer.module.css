@@ -1,0 +1,54 @@
+/* NavBar Styling */
+/* Allow wrapping and spacing inside the footer */
+.Footer :global(.container) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* Stack vertically on xs screens */
+@media (max-width: 575.98px) {
+  .Footer :global(.container) {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+}
+
+.Footer {
+  background-color: #3b3b3f;
+  width: 100%;
+  height: auto;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.NavBar a {
+  color: #3b3b3f;
+}
+
+.FooterText {
+  padding: 15px;
+  color: #fefdfd !important;
+  white-space: nowrap;
+  font-size: small;
+}
+
+.Credits {
+  color: #84d946;
+  text-decoration: none;
+}
+
+.Credits:hover {
+  color: #fefdfd;
+  text-decoration: none;
+}
+
+.NavLink {
+  padding: none !important;
+  font-size: x-large;
+  text-decoration: none;
+  white-space: nowrap;
+}
